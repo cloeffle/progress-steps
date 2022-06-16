@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
 :root {
   --line-border-fill: #3498db;
   --line-border-empty: #e0e0e0;
@@ -9,8 +10,8 @@
 }
 
 body {
-  font-family: 'Muli', sans-serif;
   background-color: #f6f7fb;
+  font-family: 'Muli', sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -31,6 +32,7 @@ body {
   max-width: 100%;
   width: 350px;
 }
+
 .progress-container::before {
   content: '';
   background-color: var(--line-border-empty);
@@ -62,8 +64,8 @@ body {
   height: 30px;
   width: 30px;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   border: 3px solid var(--line-border-empty);
   transition: 0.4s ease;
 }
@@ -85,8 +87,9 @@ body {
 }
 
 .btn:active {
-  transform: scale(0.95);
+  transform: scale(0.98);
 }
+
 .btn:focus {
   outline: 0;
 }
